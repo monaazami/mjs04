@@ -10,26 +10,29 @@ body{
 
 
 .box.open > *{
-    transform: translateX(0%);
+    transform: translateX(15%);
 }
 .box{
     background:url(mahan01.jpg) center fixed no-repeat;
-    width: 500px;
-    height: 500px;
-    padding:50px;
+    width: 600px;
+    height: 700px;
     transition: 0.5s;
     position: relative;
+    border:50px solid #FFE494;
+    border-inline-start:50px solid #68582E;
+    border-inline-end:50px solid #68582E;
 }
 .box.opening{
     /* width: 100%; */
     height: 90%;
+    
    
 }
 .box h2{
     position: absolute;
     width: 100%;
     font-size: 100px;
-    transform: translateX(-120%);
+    transform: translateX(-120%) translateY(-120%);
     transition: all 0.5s;
     top:0;
 }
