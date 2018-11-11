@@ -16,7 +16,7 @@ body{
     background:url(mahan01.jpg) center fixed no-repeat;
     width: 600px;
     height: 700px;
-    transition: 0.5s;
+    transition: 0.9s;
     position: relative;
     border:50px solid #FFE494;
     border-inline-start:50px solid #68582E;
@@ -32,7 +32,7 @@ body{
     position: absolute;
     width: 100%;
     font-size: 100px;
-    transform: translateX(-120%) translateY(-120%);
+    transform: translateX(-120%);
     transition: all 0.5s;
     top:0;
 }
