@@ -1,0 +1,42 @@
+body{
+    background-color: #FFF2C8;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    color: #FFF2C8;
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.box.open > *{
+    transform: translateX(0%);
+}
+.box{
+    background:url(mahan01.jpg) center fixed no-repeat;
+    width: 500px;
+    height: 500px;
+    padding:50px;
+    transition: 0.5s;
+    position: relative;
+}
+.box.opening{
+    /* width: 100%; */
+    height: 90%;
+   
+}
+.box h2{
+    position: absolute;
+    width: 100%;
+    font-size: 100px;
+    transform: translateX(-120%);
+    transition: all 0.5s;
+    top:0;
+}
+.box p{
+    position: absolute;
+    width: 100%;
+    transform: translateX(120%);
+    transition: all 0.5s;
+    bottom: 0;
+}
